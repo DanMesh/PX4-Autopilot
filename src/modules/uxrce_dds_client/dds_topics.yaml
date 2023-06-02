@@ -47,6 +47,27 @@ publications:
   - topic: /fmu/out/vehicle_trajectory_waypoint_desired
     type: px4_msgs::msg::VehicleTrajectoryWaypoint
 
+  - topic: /fmu/out/vehicle_imu
+    type: px4_msgs::msg::VehicleImu
+
+  - topic: /fmu/out/vehicle_imu_status
+    type: px4_msgs::msg::VehicleImuStatus
+
+  - topic: /fmu/out/vehicle_magnetometer
+    type: px4_msgs::msg::VehicleMagnetometer
+
+  - topic: /fmu/out/sensor_gps
+    type: px4_msgs::msg::SensorGps
+
+  - topic: /fmu/out/sensor_gyro
+    type: px4_msgs::msg::SensorGyro
+
+  - topic: /fmu/out/sensor_accel
+    type: px4_msgs::msg::SensorAccel
+
+  - topic: /fmu/out/sensor_mag
+    type: px4_msgs::msg::SensorMag
+
 subscriptions:
 
   - topic: /fmu/in/offboard_control_mode
